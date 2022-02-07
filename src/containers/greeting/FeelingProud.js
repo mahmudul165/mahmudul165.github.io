@@ -349,8 +349,8 @@ class FeelingProud extends Component {
       //   </g>
       // </svg>
       <Image
-        alt="saad sitting on table"
-        src={require("../../assests/images/undraw-3.svg")}
+        alt="Mahmud sitting on table"
+        src={require("../../images/undraw_Pair_programming_1.png")}
       ></Image>
     );
   }

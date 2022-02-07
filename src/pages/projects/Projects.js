@@ -8,6 +8,7 @@ import { projectsHeader } from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
+import Portfolio from "../Portfolio/Portfolio";
 
 class Projects extends Component {
   render() {
@@ -42,11 +43,12 @@ class Projects extends Component {
             </div>
           </Fade>
         </div>
-        <div className="repo-cards-div-main">
+        {/* <div className="repo-cards-div-main">
           {ProjectsData.data.map((repo) => {
             return <GithubRepoCard repo={repo} theme={theme} />;
           })}
-        </div>
+        </div> */}
+        <Portfolio theme={theme} />
         <Button
           text={"More Projects"}
           className="project-button"

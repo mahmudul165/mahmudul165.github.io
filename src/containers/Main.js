@@ -4,6 +4,7 @@ import Home from "../pages/home/HomeComponent";
 import Skill from "../pages/skill/skillTree";
 import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
+import Portfolio from "../pages/Portfolio/Portfolio";
 import Experience from "../pages/experience/Experience";
 import Opensource from "../pages/opensource/Opensource";
 import Contact from "../pages/contact/ContactComponent";
@@ -32,7 +33,9 @@ export default class Main extends Component {
               />
               <Route
                 path="/skill"
-                render={(props) => <Skill {...props} theme={this.props.theme} />}
+                render={(props) => (
+                  <Skill {...props} theme={this.props.theme} />
+                )}
               />
               <Route
                 path="/experience"
@@ -47,10 +50,16 @@ export default class Main extends Component {
                   <Education {...props} theme={this.props.theme} />
                 )}
               />
-              <Route
+              {/* <Route
                 path="/opensource"
                 render={(props) => (
                   <Opensource {...props} theme={this.props.theme} />
+                )}
+              /> */}
+              <Route
+                path="/portfolio"
+                render={(props) => (
+                  <Portfolio {...props} theme={this.props.theme} />
                 )}
               />
               <Route
@@ -91,7 +100,9 @@ export default class Main extends Component {
               />
               <Route
                 path="/skill"
-                render={(props) => <Skill {...props} theme={this.props.theme} />}
+                render={(props) => (
+                  <Skill {...props} theme={this.props.theme} />
+                )}
               />
               <Route
                 path="/experience"
