@@ -1,3 +1,4 @@
+import codedmn from "./images/codedmn_2.png";
 /* Change this file to get your personal Porfolio */
 
 // Website related settings
@@ -13,7 +14,7 @@ const greeting = {
   subTitle:
     "An aspiring developer who loves to take on new projects that challenges his analytical and technological capacities.",
   resumeLink:
-    "https://drive.google.com/file/d/1GJJB7TW8Sk4G2IX5twwGnejWsS6omW8N/view?usp=sharing",
+    "https://drive.google.com/file/d/1eEQhz4LniPcY6CLJicM964UJ_l7MF3aB/view?usp=sharing",
   portfolio_repository: "https://github.com/mahmudul165/",
 };
 
@@ -362,16 +363,19 @@ const sLanguage = {
     // },
     {
       Stack: "React",
-      progressPercentage: "70%",
+      progressPercentage: "80%",
     },
-
+    {
+      Stack: "NextJS",
+      progressPercentage: "50%",
+    },
     {
       Stack: "Express js", //Insert stack or technology you have experience in
-      progressPercentage: "70%", //Insert relative proficiency in percentage
+      progressPercentage: "60%", //Insert relative proficiency in percentage
     },
     {
-      Stack: "Rest Api/ GraphQl", //Insert stack or technology you have experience in
-      progressPercentage: "50%", //Insert relative proficiency in percentage
+      Stack: "Rest Api", //Insert stack or technology you have experience in
+      progressPercentage: "70%", //Insert relative proficiency in percentage
     },
     {
       Stack: "Node js", //Insert stack or technology you have experience in
@@ -540,6 +544,16 @@ const certifications = {
       alt_name: "Squarespace",
       color_code: "#2A73CC",
     },
+    {
+      title: "Advance NextJs Concepts",
+      subtitle: "- Mehul Mohan",
+      logo_path: "undraw-5.svg",
+      certificate_link:
+        "https://drive.google.com/file/d/1wTOu4A3ILpH1nBZK8APMgbSW3MokH7Hr/view",
+      alt_name: "codedamn",
+      color_code: "#2A73CC",
+    },
+
     /*
     {
       title: "Machine Learning",

@@ -41,17 +41,17 @@ const SingleProjectCard = (props) => {
           <span className="portfolio-link-span">
             <a
               href={project.clientGithubLink}
-              className="portfolio-link"
+              className=" "
               target="_blank"
               rel="norefferer"
             >
               <FontAwesomeIcon icon={faGithub} />
-            </a>{" "}
+            </a>
           </span>
           <span className="portfolio-link-span">
             <a
               href={project.liveLInk}
-              className="portfolio-link"
+              className=" "
               target="_blank"
               rel="norefferer"
             >
@@ -62,7 +62,7 @@ const SingleProjectCard = (props) => {
             <span className="portfolio-link-span">
               <a
                 href={project.serverGithubLink}
-                className="portfolio-link"
+                className=" "
                 target="_blank"
                 rel="norefferer"
               >
