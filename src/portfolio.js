@@ -1,4 +1,3 @@
-import codedmn from "./images/codedmn_2.png";
 /* Change this file to get your personal Porfolio */
 
 // Website related settings
